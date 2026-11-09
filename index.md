@@ -1,48 +1,218 @@
-# PROPUESTA DE UNA UNIDAD DIDÁCTICA DE PREPARACIÓN FÍSICA ESPECÍFICA DE FÚTBOL EN EL CICLO FORMATIVO DE GRADO SUPERIOR EN ACONDICIONAMIENTO FÍSICO
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFM - Preparación Física en Fútbol | Igor Asenjo Canto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-emerald-200 selection:text-emerald-900">
 
-**Igor Asenjo Canto** \
-\
-Máster Universitario en Formación del Profesorado (Educación Física) \
-2026
+    <!-- Hero Section -->
+    <header class="relative bg-gradient-to-br from-emerald-900 via-emerald-800 to-teal-900 text-white pt-20 pb-32 px-6 overflow-hidden">
+        <!-- Abstract background decoration -->
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent"></div>
+        
+        <div class="relative z-10 max-w-5xl mx-auto text-center space-y-6 mt-10">
+            <span class="inline-block py-1 px-3 rounded-full bg-emerald-700/50 border border-emerald-500/30 text-emerald-100 text-sm font-semibold tracking-wide uppercase">
+                Trabajo de Fin de Máster
+            </span>
+            <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">
+                Propuesta de una Unidad Didáctica de <span class="text-emerald-300">Preparación Física Específica de Fútbol</span>
+            </h1>
+            <h2 class="text-lg md:text-xl font-light text-emerald-100 max-w-3xl mx-auto">
+                En el Ciclo Formativo de Grado Superior en Acondicionamiento Físico (TSAF)
+            </h2>
+            
+            <div class="pt-6 border-t border-emerald-700/50 max-w-2xl mx-auto mt-8 flex flex-col md:flex-row items-center justify-center gap-4 text-emerald-50">
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                    <span class="font-semibold text-lg">Igor Asenjo Canto</span>
+                </div>
+                <span class="hidden md:inline text-emerald-600">•</span>
+                <div class="text-sm">
+                    Máster Universitario en Formación del Profesorado (Educación Física)<br>
+                    <span class="text-emerald-300">Convocatoria 2026</span>
+                </div>
+            </div>
 
----
+            <div class="pt-8">
+                <a href="./TFM_Final.pdf" target="_blank" class="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-emerald-900 bg-white border border-transparent rounded-full shadow-lg hover:bg-emerald-50 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500">
+                    <svg class="w-6 h-6 mr-2 -ml-1 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    Descargar TFM (PDF)
+                </a>
+            </div>
+        </div>
+    </header>
 
-## 📄 Documento Completo
-Haz clic en el siguiente enlace para leer o descargar la memoria completa del TFM:
+    <!-- Resumen Section (Overlapping Header) -->
+    <section class="max-w-5xl mx-auto px-6 relative z-20 -mt-16">
+        <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-slate-100">
+            <h3 class="text-2xl font-bold text-slate-800 mb-4 flex items-center gap-2">
+                <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                Resumen del Proyecto
+            </h3>
+            <p class="text-slate-600 leading-relaxed mb-6 text-justify">
+                El presente trabajo expone el diseño y la implementación de una unidad didáctica enfocada en la preparación física específica aplicada al fútbol, integrada dentro del módulo profesional de Fitness en sala de entrenamiento polivalente del Ciclo Formativo de Grado Superior en Acondicionamiento Físico (TSAF). La propuesta se fundamenta en la dinámica de las cargas en el gimnasio según las exigencias de las fases del microciclo competitivo: regeneración/compensación, adquisición y optimización. Asimismo, se asienta sobre los modelos pedagógicos de la enseñanza recíproca y la evaluación auténtica mediante el uso de rúbricas de coevaluación y la microenseñanza. La intervención práctica consistió en un programa de cinco sesiones de dos horas de duración donde el alumnado experimentó y dirigió protocolos específicos de fuerza, adaptando las variables en función de la carga competitiva de los deportistas. Las conclusiones evidencian la viabilidad pedagógica de introducir conceptos de alto rendimiento en la Formación Profesional, mejorando las competencias de programación y corrección del futuro técnico, lo que optimiza directamente su perfil de empleabilidad en el sector del fitness comercial.
+            </p>
+            
+            <div class="pt-4 border-t border-slate-100">
+                <h4 class="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-3">Palabras Clave</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full text-sm font-medium border border-emerald-100">Empleabilidad</span>
+                    <span class="px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full text-sm font-medium border border-emerald-100">Formación Profesional</span>
+                    <span class="px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full text-sm font-medium border border-emerald-100">Fútbol</span>
+                    <span class="px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full text-sm font-medium border border-emerald-100">Preparación Física Específica</span>
+                    <span class="px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full text-sm font-medium border border-emerald-100">TSAF</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<a href="./TFM_Final.pdf" target="_blank" style="display:inline-block; background-color:#2ea44f; color:white; padding:12px 20px; text-decoration:none; font-weight:bold; border-radius:6px; margin:10px 0;">📥 Descargar TFM (PDF)</a>
+    <!-- Justificación y Objetivos -->
+    <section class="max-w-7xl mx-auto px-6 py-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+            <!-- Justificación -->
+            <div class="space-y-4">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 mb-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                </div>
+                <h3 class="text-3xl font-bold text-slate-800">Justificación</h3>
+                <p class="text-slate-600 leading-relaxed text-lg">
+                    La propuesta se justifica por la convergencia de la demanda laboral de clientes-futbolistas, el currículo de la Formación Profesional como motor de empleabilidad, y la necesidad técnica de integrar el entrenamiento de fuerza en el fútbol.
+                </p>
+            </div>
+            
+            <!-- Objetivos -->
+            <div class="space-y-4 bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <div class="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-teal-100 text-teal-600 mb-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                </div>
+                <h3 class="text-3xl font-bold text-slate-800">Objetivo General</h3>
+                <p class="text-slate-600 leading-relaxed text-lg">
+                    Dotar al alumnado del ciclo TSAF de competencias avanzadas para planificar entrenamientos orientados al rendimiento deportivo de futbolistas en salas de entrenamiento polivalente, optimizando así su perfil profesional y su empleabilidad.
+                </p>
+            </div>
+        </div>
+    </section>
 
----
+    <!-- Contexto y Metodología -->
+    <section class="bg-slate-100 py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-4">Contexto y Metodología</h2>
+                <p class="text-slate-600 text-lg">
+                    La intervención se llevó a cabo en el aula de tecnología aplicada (ATECA) del <strong class="text-emerald-700">IES Los Castillos (Alcorcón)</strong>, un espacio equipado que simula fielmente un entorno profesional de fitness.
+                </p>
+            </div>
 
-## 📝 Resumen del Proyecto
-El presente trabajo expone el diseño y la implementación de una unidad didáctica enfocada en la preparación física específica aplicada al fútbol, integrada dentro del módulo profesional de Fitness en sala de entrenamiento polivalente del Ciclo Formativo de Grado Superior en Acondicionamiento Físico (TSAF)[cite: 3]. La propuesta se fundamenta en la dinámica de las cargas en el gimnasio según las exigencias de las fases del microciclo competitivo: regeneración/compensación, adquisición y optimización[cite: 3]. Asimismo, se asienta sobre los modelos pedagógicos de la enseñanza recíproca y la evaluación auténtica mediante el uso de rúbricas de coevaluación y la microenseñanza[cite: 3]. La intervención práctica consistió en un programa de cinco sesiones de dos horas de duración donde el alumnado experimentó y dirigió protocolos específicos de fuerza, adaptando las variables en función de la carga competitiva de los deportistas[cite: 3]. Las conclusiones evidencian la viabilidad pedagógica de introducir conceptos de alto rendimiento en la Formación Profesional, mejorando las competencias de programación y corrección del futuro técnico, lo que optimiza directamente su perfil de empleabilidad en el sector del fitness comercial[cite: 3].
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm border-t-4 border-emerald-500 hover:shadow-md transition-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-emerald-100 p-3 rounded-full mr-4">
+                            <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800">Enseñanza Recíproca</h3>
+                    </div>
+                    <p class="text-slate-600">
+                        El alumnado se organizó en tríos, asumiendo roles rotatorios de cliente (ejecución técnica) y entrenador (observación y corrección mediante guías). Este enfoque sitúa al estudiante en el centro del aprendizaje práctico.
+                    </p>
+                </div>
 
-### Palabras clave
-Empleabilidad, formación profesional, fútbol, preparación física específica, TSAF[cite: 3].
+                <!-- Card 2 -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm border-t-4 border-teal-500 hover:shadow-md transition-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-teal-100 p-3 rounded-full mr-4">
+                            <svg class="w-6 h-6 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800">Microenseñanza y Evaluación Auténtica</h3>
+                    </div>
+                    <p class="text-slate-600">
+                        Se evaluó al alumnado situándolo en un escenario real, donde debían diseñar e impartir una sesión de entrenamiento de 25 minutos, promoviendo la transferencia directa de competencias al entorno laboral.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
----
+    <!-- Planificación de Sesiones -->
+    <section class="max-w-7xl mx-auto px-6 py-20">
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-800 mb-12 text-center">Planificación de las Sesiones</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <!-- Sesion 1 -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col h-full relative overflow-hidden group hover:border-emerald-300 transition-colors">
+                <div class="absolute top-0 right-0 bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-bl-lg">MD+1</div>
+                <div class="text-emerald-600 font-black text-4xl mb-2 opacity-50 group-hover:opacity-100 transition-opacity">01</div>
+                <h3 class="text-lg font-bold text-slate-800 mb-2 leading-tight">Regenerativo / Compensatorio</h3>
+                <p class="text-sm text-slate-600 mt-auto">
+                    Diferenciar protocolos de recuperación para jugadores con alta carga de minutos frente a sesiones compensatorias para los de baja participación.
+                </p>
+            </div>
 
-## 🎯 Justificación y Objetivos
-La propuesta se justifica por la convergencia de la demanda laboral de clientes-futbolistas, el currículo de la Formación Profesional como motor de empleabilidad, y la necesidad técnica de integrar el entrenamiento de fuerza en el fútbol[cite: 10, 11]. 
+            <!-- Sesion 2 -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col h-full relative overflow-hidden group hover:border-emerald-300 transition-colors">
+                <div class="absolute top-0 right-0 bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-bl-lg">MD-4</div>
+                <div class="text-emerald-600 font-black text-4xl mb-2 opacity-50 group-hover:opacity-100 transition-opacity">02</div>
+                <h3 class="text-lg font-bold text-slate-800 mb-2 leading-tight">Fuerza Estructural</h3>
+                <p class="text-sm text-slate-600 mt-auto">
+                    Implementar entrenamientos diferenciados para perfiles con déficit de velocidad o de fuerza, ajustando la carga máxima a sus necesidades.
+                </p>
+            </div>
 
-El **objetivo general** es dotar al alumnado del ciclo TSAF de competencias avanzadas para planificar entrenamientos orientados al rendimiento deportivo de futbolistas en salas de entrenamiento polivalente, optimizando así su perfil profesional y su empleabilidad[cite: 12].
+            <!-- Sesion 3 -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col h-full relative overflow-hidden group hover:border-emerald-300 transition-colors">
+                <div class="absolute top-0 right-0 bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-bl-lg">MD-1</div>
+                <div class="text-emerald-600 font-black text-4xl mb-2 opacity-50 group-hover:opacity-100 transition-opacity">03</div>
+                <h3 class="text-lg font-bold text-slate-800 mb-2 leading-tight">Potenciación Post-Activación (PAP)</h3>
+                <p class="text-sm text-slate-600 mt-auto">
+                    Experimentar protocolos PAP mediante contrastes intrasesión, combinando isometría máxima con pliometría y explosividad.
+                </p>
+            </div>
 
-## 🏫 Contexto y Metodología
-La intervención se llevó a cabo en el aula de tecnología aplicada (ATECA) del **IES Los Castillos (Alcorcón)**, un espacio equipado que simula fielmente un entorno profesional de fitness[cite: 26].
+            <!-- Sesiones 4 y 5 -->
+            <div class="bg-gradient-to-br from-slate-800 to-slate-900 text-white p-6 rounded-2xl shadow-sm flex flex-col h-full relative overflow-hidden transform hover:-translate-y-1 transition-transform">
+                <div class="text-slate-500 font-black text-4xl mb-2">04 y 05</div>
+                <h3 class="text-lg font-bold text-emerald-400 mb-2 leading-tight">Práctica de dirección y coevaluación</h3>
+                <p class="text-sm text-slate-300 mt-auto">
+                    Aplicación de la microenseñanza: el alumnado diseña, dirige y coevalúa de forma práctica una propuesta de acondicionamiento físico basada en un caso deportivo real.
+                </p>
+            </div>
 
-El proceso de enseñanza-aprendizaje se articuló mediante metodologías activas[cite: 14]:
-*   **Enseñanza recíproca:** El alumnado se organizó en tríos, asumiendo roles rotatorios de cliente (ejecución técnica) y entrenador (observación y corrección mediante guías)[cite: 22, 23].
-*   **Microenseñanza y Evaluación auténtica:** Se evaluó al alumnado situándolo en un escenario real, donde debían diseñar e impartir una sesión de entrenamiento de 25 minutos[cite: 23, 24].
+        </div>
+    </section>
 
-## 🗓️ Planificación de las Sesiones
-La unidad didáctica se desarrolló en cinco sesiones prácticas de dos horas[cite: 29]:
+    <!-- Conclusiones Principales -->
+    <section class="px-6 pb-20">
+        <div class="max-w-5xl mx-auto bg-gradient-to-r from-emerald-900 to-teal-900 text-white rounded-3xl p-10 md:p-16 text-center shadow-2xl relative overflow-hidden">
+            <!-- Icono decorativo -->
+            <svg class="absolute -top-10 -right-10 w-48 h-48 text-emerald-800 opacity-50" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 relative z-10">Conclusiones Principales</h2>
+            <p class="text-lg md:text-xl text-emerald-100 font-light leading-relaxed max-w-4xl mx-auto relative z-10">
+                La implementación evidenció que <strong class="text-white">especializar al alumnado en preparación física deportiva</strong> transforma una formación general en una capacitación altamente competitiva para el mercado laboral. Además, la alternancia de roles (ejecutor/observador) desarrolló una capacidad crítica de corrección técnica esencial para su futuro profesional como técnicos de sala.
+            </p>
+        </div>
+    </section>
 
-| Sesión | Título / Fase del Microciclo | Objetivo Principal |
-| :--- | :--- | :--- |
-| **Sesión 1** | Regenerativo / Compensatorio (MD+1)[cite: 32] | Diferenciar protocolos de recuperación para jugadores con alta carga de minutos frente a sesiones compensatorias para los de baja participación[cite: 32]. |
-| **Sesión 2** | Fuerza estructural (MD-4)[cite: 35] | Implementar entrenamientos diferenciados para perfiles con déficit de velocidad o de fuerza, ajustando la carga máxima[cite: 35]. |
-| **Sesión 3** | Potenciación Post-Activación (MD-1)[cite: 38] | Experimentar protocolos PAP mediante contrastes intrasesión (isometría máxima y pliometría/explosividad)[cite: 38]. |
-| **Sesiones 4 y 5** | Práctica de dirección y coevaluación[cite: 41, 43] | Aplicación de la microenseñanza: el alumnado diseña, dirige y coevalúa una propuesta de acondicionamiento físico basada en un caso real[cite: 41, 43]. |
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center border-t border-slate-800">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+            <p class="text-sm">
+                &copy; 2026 Igor Asenjo Canto. Trabajo de Fin de Máster.
+            </p>
+            <div class="flex space-x-4">
+                <span class="text-sm">Universidad a Distancia de Madrid (UDIMA)</span>
+            </div>
+        </div>
+    </footer>
 
-## ✅ Conclusiones Principales
-La implementación evidenció que especializar al alumnado en preparación física deportiva transforma una formación general en una capacitación competitiva para el mercado laboral[cite: 48]. Además, la alternancia de roles (ejecutor/observador) desarrolló una capacidad crítica de corrección técnica esencial para su futuro profesional como técnicos de sala[cite: 48].
+</body>
+</html>

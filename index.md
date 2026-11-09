@@ -1,9 +1,9 @@
-# Propuesta Didáctica: PROPUESTA DE UNA UNIDAD DIDÁCTICA DE PREPARACIÓN FÍSICA ESPECÍFICA DE FÚTBOL EN EL CICLO FORMATIVO DE GRADO SUPERIOR EN ACONDICIONAMIENTO FÍSICO
+# PROPUESTA DE UNA UNIDAD DIDÁCTICA DE PREPARACIÓN FÍSICA ESPECÍFICA DE FÚTBOL EN EL CICLO FORMATIVO DE GRADO SUPERIOR EN ACONDICIONAMIENTO FÍSICO
 
-**Autor/a:** Igor Asenjo Canto
-**Especialidad:** Máster Universitario en Formación del Profesorado de Educación Secundaria Obligatoria, Bachillerato, FP y Enseñanza de Idiomas  
-**Especialidad concreta:** Educación Física 
-**Convocatoria:** 2026
+**Igor Asenjo Canto** \
+\
+Máster Universitario en Formación del Profesorado (Educación Física) \
+2026
 
 ---
 
